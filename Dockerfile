@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:latest
+FROM mhart/alpine-node:6
 
 ENV YARN_VER=v0.22.0
 ENV YARN_PKG_URL=https://github.com/yarnpkg/yarn/releases/download/${YARN_VER}/yarn-${YARN_VER}.tar.gz
